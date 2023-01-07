@@ -1,0 +1,17 @@
+reverse_tf,location,DTW_dist,validity
+0,"['Sanghyeon', 'Seongbok', 'Suji-gu Office', 'Dongcheon', 'Migeum', 'Jeongja', 'Pangyo']",44315.92928642032,True
+1,"['Gwanggyo Jungang', 'Sanghyeon', 'Seongbok', 'Suji-gu Office', 'Dongcheon', 'Migeum', 'Jeongja']",78925.65823468991,True
+0,"['Suji-gu Office', 'Dongcheon', 'Migeum', 'Jeongja', 'Pangyo', 'Cheonggyesan', 'Yangjae']",80857.39402263593,True
+1,"['Sanghyeon', 'Seongbok', 'Suji-gu Office', 'Dongcheon', 'Migeum', 'Jeongja', 'Pangyo']",89706.16444332268,True
+0,"['Suji-gu Office', 'Dongcheon', 'Migeum', 'Jeongja', 'Pangyo', 'Cheonggyesan', ""Yangjae Citizen's Forest""]",92644.83584656817,True
+0,"['Migeum', 'Jeongja', 'Pangyo', 'Cheonggyesan', ""Yangjae Citizen's Forest"", 'Yangjae', 'Gangnam']",96826.48003410373,True
+1,"['Dongcheon', 'Migeum', 'Jeongja', 'Pangyo', 'Cheonggyesan', ""Yangjae Citizen's Forest"", 'Yangjae']",97822.5946058597,True
+0,"['Gwanggyo Jungang', 'Sanghyeon', 'Seongbok', 'Suji-gu Office', 'Dongcheon', 'Migeum', 'Jeongja']",102572.30635847173,True
+1,"['Migeum', 'Jeongja', 'Pangyo', 'Cheonggyesan', ""Yangjae Citizen's Forest"", 'Yangjae', 'Gangnam']",117926.40240188834,True
+1,"['Suji-gu Office', 'Dongcheon', 'Migeum', 'Jeongja', 'Pangyo', 'Cheonggyesan', 'Yangjae']",119987.82238841723,True
+1,"['Seongbok', 'Suji-gu Office', 'Dongcheon', 'Migeum', 'Jeongja', 'Pangyo', 'Cheonggyesan']",121542.81661093453,True
+0,"['Dongcheon', 'Migeum', 'Jeongja', 'Pangyo', 'Cheonggyesan', ""Yangjae Citizen's Forest"", 'Yangjae']",125097.06375352544,True
+0,"['Seongbok', 'Suji-gu Office', 'Dongcheon', 'Migeum', 'Jeongja', 'Pangyo', 'Cheonggyesan']",126084.99834588528,True
+0,"['Gwanggyo', 'Gwanggyo Jungang', 'Sanghyeon', 'Seongbok', 'Suji-gu Office', 'Dongcheon', 'Migeum']",142295.51443801113,True
+1,"['Suji-gu Office', 'Dongcheon', 'Migeum', 'Jeongja', 'Pangyo', 'Cheonggyesan', ""Yangjae Citizen's Forest""]",142433.94038854737,True
+1,"['Gwanggyo', 'Gwanggyo Jungang', 'Sanghyeon', 'Seongbok', 'Suji-gu Office', 'Dongcheon', 'Migeum']",155529.99358874495,True

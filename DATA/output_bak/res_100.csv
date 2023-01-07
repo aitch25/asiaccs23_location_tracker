@@ -1,0 +1,13 @@
+reverse_tf,location,DTW_dist,validity
+0,"['Sanghyeon', 'Seongbok', 'Suji-gu Office', 'Dongcheon', 'Migeum', 'Jeongja', 'Pangyo']",46552.21446716707,True
+1,"['Gwanggyo Jungang', 'Sanghyeon', 'Seongbok', 'Suji-gu Office', 'Dongcheon', 'Migeum', 'Jeongja']",88141.27393463143,True
+1,"['Sanghyeon', 'Seongbok', 'Suji-gu Office', 'Dongcheon', 'Migeum', 'Jeongja', 'Pangyo']",100279.48437130927,True
+0,"['Gwanggyo Jungang', 'Sanghyeon', 'Seongbok', 'Suji-gu Office', 'Dongcheon', 'Migeum', 'Jeongja']",102461.45206491603,True
+0,"['Suji-gu Office', 'Dongcheon', 'Migeum', 'Jeongja', 'Pangyo', 'Cheonggyesan', ""Yangjae Citizen's Forest""]",106028.03322594363,True
+1,"['Dongcheon', 'Migeum', 'Jeongja', 'Pangyo', 'Cheonggyesan', ""Yangjae Citizen's Forest"", 'Yangjae']",116849.4363825545,True
+0,"['Seongbok', 'Suji-gu Office', 'Dongcheon', 'Migeum', 'Jeongja', 'Pangyo', 'Cheonggyesan']",138006.81058306058,True
+0,"['Dongcheon', 'Migeum', 'Jeongja', 'Pangyo', 'Cheonggyesan', ""Yangjae Citizen's Forest"", 'Yangjae']",138524.5926838004,True
+1,"['Seongbok', 'Suji-gu Office', 'Dongcheon', 'Migeum', 'Jeongja', 'Pangyo', 'Cheonggyesan']",139343.2804976364,True
+1,"['Suji-gu Office', 'Dongcheon', 'Migeum', 'Jeongja', 'Pangyo', 'Cheonggyesan', ""Yangjae Citizen's Forest""]",158436.0479526751,True
+0,"['Gwanggyo', 'Gwanggyo Jungang', 'Sanghyeon', 'Seongbok', 'Suji-gu Office', 'Dongcheon', 'Migeum']",159940.553279516,True
+1,"['Gwanggyo', 'Gwanggyo Jungang', 'Sanghyeon', 'Seongbok', 'Suji-gu Office', 'Dongcheon', 'Migeum']",170182.3624488736,True
