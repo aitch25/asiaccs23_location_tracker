@@ -46,8 +46,6 @@ def get_references(mRefpath, mNgram=3):
         oRef_2d_list.append(oRef_new)
 
         oRef_list.append(rp.get_continuous_sequence(oRef_new))
-        #oRef_list.append(oRef)
-        #oRef_list.append(oReferences_2d)
 
     return oRef_name, oRef_list, oRef_2d_list
 
@@ -64,14 +62,6 @@ def validity_checker(mStations, mRefpath):
     oRef = oRef[['name', 'latitude', 'longitude']].drop_duplicates()
     oEntire_ref_name.append(oRef[oRef['name']!='none']['name'].values)
     oEntire_ref_name = list(oEntire_ref_name[0])
-
-    #for i in range(len(oEntire_ref_name)-len(mStations)):
-    #    if (editdistance.eval(mStations, oEntire_ref_name[i:i+len(mStations)])<=1) | (editdistance.eval(mStations[::-1], oEntire_ref_name[i:i+len(mStations)])<=1):
-    #        return True
-    #return False
-
-    #print(':'.join(mStations[::-1]))
-    #print(':'.join(oEntire_ref_name))
 
     if (':'.join(mStations) in ':'.join(oEntire_ref_name)) | (':'.join(mStations[::-1]) in ':'.join(oEntire_ref_name)):
         return True
@@ -149,7 +139,6 @@ if __name__=='__main__':
     queries = sp.split_path(query, mSplit_points=split_points)
     ngram_cnt = len(queries)
     queries = query_split_nGram(queries, mNgram=ngram)
-    #print(len(queries))
 
     ############################################################################################
 
@@ -172,19 +161,10 @@ if __name__=='__main__':
                 find_best_matches['reverse_tf'].append(rev)
                 find_best_matches['location'].append(station_name[::-1]) if rev else find_best_matches['location'].append(station_name)
 
-                #if rev:
-                #    find_best_matches['location'].append(station_name[::-1])
-                #else:
-                #    find_best_matches['location'].append(station_name)
 
                 alignment = dtw(q, r, keep_internals=True)
                 find_best_matches['DTW_dist'].append(alignment.distance)
 
-                ### Display the warping curve, i.e. the alignment curve
-                #alignment.plot(type="threeway")
-
-                ## Align and plot with the Rabiner-Juang type VI-c unsmoothed recursion
-                #dtw(q, r, keep_internals=True, step_pattern=rabinerJuangStepPattern(6, "c")).plot(type="twoway", offset=0)
 
         if best_matches.empty:
             best_matches = pd.DataFrame.from_dict(find_best_matches).sort_values(by='DTW_dist')
@@ -197,7 +177,6 @@ if __name__=='__main__':
             best_matches = best_matches[best_matches['validity']==True]
         
 
-    #best_matches = best_matches[['reverse_tf', 'location', 'DTW_dist', 'validity']].sort_values(by='DTW_dist')
     best_matches = best_matches.sort_values(by='DTW_dist')
     best_matches.to_csv('./DATA/output/res_{}.csv'.format(str('%03d' % file_idx)), index=False)
 
