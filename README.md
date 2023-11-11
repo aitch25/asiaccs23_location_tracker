@@ -25,4 +25,4 @@
 
 Make sure to follow these steps to install the necessary packages and run the code successfully.
 
-"In our project, the code for peak detection (stop point detection) is referenced from https://github.com/demotu/BMC."
+In our project, the code for peak detection (stop point detection) is referenced from https://github.com/demotu/BMC.
